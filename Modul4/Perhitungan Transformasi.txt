@@ -1,0 +1,115 @@
+Perhitungan Transformasi
+
+[x, y, z] = [4,8,1]
+
+A[x, y] = A[4,8]
+
+M = x -> M = 4
+
+tx = y -> tx = 8
+
+ty = z -> ty = 1
+
+sx = z -> sx = 1
+
+sy = x -> sy = 4
+
+
+Persamaan Garis Sebelum Transformasi
+
+[y = mx + c]
+
+[8 = (4) (4) + c]
+
+[8 = 16 + c]
+
+[c = 8 - 16]
+
+[c = -8]
+
+[y = 4x + (-8)]
+
+
+Jadi persamaan garis transformasi y = 4x - 8
+
+
+Titik A = (4,8) dengan gradien M = 4
+mengalami transformasi secara beruntun atau berurutan
+● pertama, translasi dengan tx = 8 dan ty = 1,
+● kemudian rotasi sejajar sumbu x positif sebesar 60 derajat,
+● dan perbesaran skala dengan faktor skala 1 pada sumbu x dan faktor skala 4 pada
+sumbu y.
+
+Jawab
+1. Titik A (4,8) ditranslasi terhadap (8,1)
+
+[ x' ] = [ x + tx ]
+[ y' ] = [ y + ty ]
+
+[ x' ] = [4 + 8]
+[ x' ] = [8 + 1]
+
+[ x' ] = [ 12 ]
+[ y' ] = [ 9 ]
+
+Jadi A' = (12, 9)
+
+2. Titik A' (12, 9) rotasi sejajar sumbu x positif sebesar 60 derajat
+
+[ x' ] Rotasi 60* [ x ]
+[ y' ] 		  [ y ]
+
+[ x' ] = [ cos(60*) - sin(60*) ] [ x ]
+[ y' ] = [ sin(60*) + sin(60*) ] [ y ]
+
+x' = x cos (60*) - y sin (60*)
+y' = x sin (60*) + y cos (60*)
+
+x' = 12 cos(60*) - 9 sin (60*)
+y' = 12 sin(60*) + 9 sin (60*)
+
+x' = 12 (1/2) - 9 (√3/2)
+y' = 12 (√3/2) + 9 (1/2)
+
+x' = 12/2    - 9√3/2
+y' = 12√3/2 + 9/2
+
+x' = 12 - 9√3
+     --------
+	2
+
+y' = 12√3 + 9
+     -------
+	2
+
+x' = -1.79423
+y' = 14.8923
+
+Jadi A'' = (-1.79423, 14.8923)
+
+3. Jadi A'' = (-1.79423, 14.8923) dilatasi dengan koordinat (1,4)
+
+x' = sx . x
+y' = sy . y
+
+x' = 1 . -1.79423
+y' = 4 . 14.8923
+
+x' = -1.79423
+y' = 59.5692
+
+4. Persamaan garis A''' = (-1.79423, 59.5692) dengan gradient 4
+
+[ y = mx + c]
+
+[ 59.5692 = (-1.79423) (4) + c ]
+
+[ 59.5692 = (-7.17692) + c ]
+
+[ c = 7.17692 + 59.5692]
+
+[ c = 66.74612]
+
+[ y = 4x + 66.74612]
+
+Jadi persamaan garis setelah transformasi adalah y = 4x + 66.74612
